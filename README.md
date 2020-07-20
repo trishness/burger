@@ -1,1 +1,8 @@
 # burger
+
+This assignment incorporated the use of express servers, MySQL, handlebars and ORM. It required a database to be initially created within MySQL, then connected to an express server that could store, add and update information within the database. Upon deployment, a user will be presented with a website displaying types of hamburgers and whether or not they had been eaten. On the left, the user will see a section with a list of burgers that have not been devoured, whereas the right side of the page shows a section with burgers that have been eaten. The user is then able to click "Devour It!" from the list of burgers that have not been eaten, at which point they will automatically move over to the "These burgers were darn tasty!" (Devoured) section. The user is then able to click "I'd like another!" within this right section, thus moving the burger back over to the left side, ie order another burger. At the bottom of the page, the user is able to make a brand new type of burger by typing in the name of the burger and selecting whether or not it has been devoured. On the backend, all of the server/connection data and functionality was created and linked up with the use of ORM. This was then linked into the handlebars HTML to create a deployable website. Additional styling was added with CSS and Bootstrap.
+
+Link to Deployed Heroku Application:
+
+
+![alt text](/public/assets/img/burgerapp.jpg?raw=true)
