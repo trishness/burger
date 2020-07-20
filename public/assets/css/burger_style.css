@@ -1,0 +1,23 @@
+body{
+    background-color: lightpink !important;
+}
+
+h1{
+    text-align: center;
+}
+
+#create{
+    display:flex;
+    justify-content:center;
+
+}
+
+h2{
+    display:flex;
+    text-align: center;
+    justify-content:center;
+}
+
+.ul{
+    font-size:20px;
+}
